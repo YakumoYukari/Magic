@@ -1,0 +1,6 @@
+C:\Users\Lukez_000\documents\visual studio 2013\Projects\Magic\DataStructures\bin\Debug\DataStructures.dll
+C:\Users\Lukez_000\documents\visual studio 2013\Projects\Magic\DataStructures\bin\Debug\DataStructures.pdb
+C:\Users\Lukez_000\documents\visual studio 2013\Projects\Magic\DataStructures\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Lukez_000\documents\visual studio 2013\Projects\Magic\DataStructures\obj\Debug\DataStructures.csprojResolveAssemblyReference.cache
+C:\Users\Lukez_000\documents\visual studio 2013\Projects\Magic\DataStructures\obj\Debug\DataStructures.dll
+C:\Users\Lukez_000\documents\visual studio 2013\Projects\Magic\DataStructures\obj\Debug\DataStructures.pdb

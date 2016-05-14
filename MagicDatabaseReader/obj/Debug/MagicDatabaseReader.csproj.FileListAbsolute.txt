@@ -1,0 +1,10 @@
+C:\Users\Lukez_000\documents\visual studio 2013\Projects\Magic\MagicDatabaseReader\obj\Debug\MagicDatabaseReader.csprojResolveAssemblyReference.cache
+C:\Users\Lukez_000\documents\visual studio 2013\Projects\Magic\MagicDatabaseReader\bin\Debug\MagicDatabaseReader.dll
+C:\Users\Lukez_000\documents\visual studio 2013\Projects\Magic\MagicDatabaseReader\bin\Debug\MagicDatabaseReader.pdb
+C:\Users\Lukez_000\documents\visual studio 2013\Projects\Magic\MagicDatabaseReader\bin\Debug\DataStructures.dll
+C:\Users\Lukez_000\documents\visual studio 2013\Projects\Magic\MagicDatabaseReader\bin\Debug\System.Data.SQLite.dll
+C:\Users\Lukez_000\documents\visual studio 2013\Projects\Magic\MagicDatabaseReader\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Lukez_000\documents\visual studio 2013\Projects\Magic\MagicDatabaseReader\bin\Debug\DataStructures.pdb
+C:\Users\Lukez_000\documents\visual studio 2013\Projects\Magic\MagicDatabaseReader\bin\Debug\System.Data.SQLite.xml
+C:\Users\Lukez_000\documents\visual studio 2013\Projects\Magic\MagicDatabaseReader\obj\Debug\MagicDatabaseReader.dll
+C:\Users\Lukez_000\documents\visual studio 2013\Projects\Magic\MagicDatabaseReader\obj\Debug\MagicDatabaseReader.pdb

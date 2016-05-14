@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="MagicDatabase" Class="DataClassesDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Table Name="dbo.Cards" Member="Cards">
+    <Type Name="Card">
+      <Column Name="Name" Type="System.String" DbType="NVarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="Names" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="ManaCost" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="CMC" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Colors" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="Type" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="Supertypes" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="Types" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="Subtypes" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="Rarity" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="Text" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="Flavor" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="Artist" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="Number" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="Power" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="Toughness" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="Loyalty" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Layout" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="MultiverseID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Variations" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="ImageName" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="Watermark" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="Border" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="Timeshifted" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="HandSizeModifier" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="LifeModifier" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Reserved" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="ReleaseDate" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="Rulings" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="ForeignNames" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="Printings" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="OriginalText" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="OriginalType" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="Legalities" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="Source" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+    </Type>
+  </Table>
+</Database>

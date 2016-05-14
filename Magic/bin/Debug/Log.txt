@@ -1,0 +1,53 @@
+[10:28:22 PM] System.IO.FileNotFoundException: Could not find file 'C:\Users\Lukez_000\Desktop\Magic Resources\Images\manaleak.hq.jpg'.
+File name: 'C:\Users\Lukez_000\Desktop\Magic Resources\Images\manaleak.hq.jpg'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.Windows.Media.Imaging.BitmapDecoder.SetupDecoderFromUriOrStream(Uri uri, Stream stream, BitmapCacheOption cacheOption, Guid& clsId, Boolean& isOriginalWritable, Stream& uriStream, UnmanagedMemoryStream& unmanagedMemoryStream, SafeFileHandle& safeFilehandle)
+   at System.Windows.Media.Imaging.BitmapDecoder.CreateFromUriOrStream(Uri baseUri, Uri uri, Stream stream, BitmapCreateOptions createOptions, BitmapCacheOption cacheOption, RequestCachePolicy uriCachePolicy, Boolean insertInDecoderCache)
+   at System.Windows.Media.Imaging.BitmapImage.FinalizeCreation()
+   at System.Windows.Media.Imaging.BitmapImage.EndInit()
+   at System.Windows.Media.Imaging.BitmapImage..ctor(Uri uriSource, RequestCachePolicy uriCachePolicy)
+   at System.Windows.Media.Imaging.BitmapImage..ctor(Uri uriSource)
+   at Magic.UIMain.RegisterCard(Card card) in c:\Users\Lukez_000\Documents\Visual Studio 2013\Projects\Magic\Magic\UIMain.cs:line 65
+   at Magic.Hand.AddCard(Card card) in c:\Users\Lukez_000\Documents\Visual Studio 2013\Projects\Magic\Magic\Hand.cs:line 39
+   at Magic.CommandProcessor.AddCardToHand(String[] args) in c:\Users\Lukez_000\Documents\Visual Studio 2013\Projects\Magic\Magic\ChatCommands.cs:line 68
+   at Magic.CommandProcessor.RunCommand(String command) in c:\Users\Lukez_000\Documents\Visual Studio 2013\Projects\Magic\Magic\CommandProcessor.cs:line 45
+   at Magic.LogBoxManager.OnChatBoxSubmit(Object sender, EventArgs args) in c:\Users\Lukez_000\Documents\Visual Studio 2013\Projects\Magic\Magic\LogBoxManager.cs:line 168
+   at Magic.EventManager.NotifyEvent(Events e, Object sender, EventArgs args) in c:\Users\Lukez_000\Documents\Visual Studio 2013\Projects\Magic\Magic\EventManager.cs:line 34
+   at Magic.MainWindow.CommandBox_PreviewKeyDown(Object sender, KeyEventArgs e) in c:\Users\Lukez_000\Documents\Visual Studio 2013\Projects\Magic\Magic\MainWindow.xaml.cs:line 88[10:29:25 PM] System.IO.FileNotFoundException: Could not find file 'C:\Users\Lukez_000\Desktop\Magic Resources\Images\manaleak.hq.jpg'.
+File name: 'C:\Users\Lukez_000\Desktop\Magic Resources\Images\manaleak.hq.jpg'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.Windows.Media.Imaging.BitmapDecoder.SetupDecoderFromUriOrStream(Uri uri, Stream stream, BitmapCacheOption cacheOption, Guid& clsId, Boolean& isOriginalWritable, Stream& uriStream, UnmanagedMemoryStream& unmanagedMemoryStream, SafeFileHandle& safeFilehandle)
+   at System.Windows.Media.Imaging.BitmapDecoder.CreateFromUriOrStream(Uri baseUri, Uri uri, Stream stream, BitmapCreateOptions createOptions, BitmapCacheOption cacheOption, RequestCachePolicy uriCachePolicy, Boolean insertInDecoderCache)
+   at System.Windows.Media.Imaging.BitmapImage.FinalizeCreation()
+   at System.Windows.Media.Imaging.BitmapImage.EndInit()
+   at System.Windows.Media.Imaging.BitmapImage..ctor(Uri uriSource, RequestCachePolicy uriCachePolicy)
+   at System.Windows.Media.Imaging.BitmapImage..ctor(Uri uriSource)
+   at Magic.UIMain.RegisterCard(Card card) in c:\Users\Lukez_000\Documents\Visual Studio 2013\Projects\Magic\Magic\UIMain.cs:line 65
+   at Magic.Hand.AddCard(Card card) in c:\Users\Lukez_000\Documents\Visual Studio 2013\Projects\Magic\Magic\Hand.cs:line 39
+   at Magic.CommandProcessor.AddCardToHand(String[] args) in c:\Users\Lukez_000\Documents\Visual Studio 2013\Projects\Magic\Magic\ChatCommands.cs:line 68
+   at Magic.CommandProcessor.RunCommand(String command) in c:\Users\Lukez_000\Documents\Visual Studio 2013\Projects\Magic\Magic\CommandProcessor.cs:line 45
+   at Magic.LogBoxManager.OnChatBoxSubmit(Object sender, EventArgs args) in c:\Users\Lukez_000\Documents\Visual Studio 2013\Projects\Magic\Magic\LogBoxManager.cs:line 168
+   at Magic.EventManager.NotifyEvent(Events e, Object sender, EventArgs args) in c:\Users\Lukez_000\Documents\Visual Studio 2013\Projects\Magic\Magic\EventManager.cs:line 34
+   at Magic.MainWindow.CommandBox_PreviewKeyDown(Object sender, KeyEventArgs e) in c:\Users\Lukez_000\Documents\Visual Studio 2013\Projects\Magic\Magic\MainWindow.xaml.cs:line 90[3:36:26 AM] System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Magic.CommandProcessor.HelpCommand(String[] args) in c:\Users\Lukez_000\Documents\Visual Studio 2013\Projects\Magic\Magic\ChatCommands.cs:line 32
+   at Magic.CommandProcessor.RunCommand(String command) in c:\Users\Lukez_000\Documents\Visual Studio 2013\Projects\Magic\Magic\CommandProcessor.cs:line 46
+   at Magic.LogBoxManager.OnChatBoxSubmit(Object sender, EventArgs args) in c:\Users\Lukez_000\Documents\Visual Studio 2013\Projects\Magic\Magic\LogBoxManager.cs:line 175
+   at Magic.EventManager.NotifyEvent(Events e, Object sender, EventArgs args) in c:\Users\Lukez_000\Documents\Visual Studio 2013\Projects\Magic\Magic\EventManager.cs:line 34
+   at Magic.MainWindow.CommandBox_PreviewKeyDown(Object sender, KeyEventArgs e) in c:\Users\Lukez_000\Documents\Visual Studio 2013\Projects\Magic\Magic\MainWindow.xaml.cs:line 95[4:46:35 PM] System.NullReferenceException: Object reference not set to an instance of an object.
+   at Magic.UIMain.ResizeCardInspector() in c:\Users\Lukez_000\Documents\Visual Studio 2013\Projects\Magic\Magic\UIMain.cs:line 65
+   at Magic.UIMain.OnResize(SizeChangedEventArgs e) in c:\Users\Lukez_000\Documents\Visual Studio 2013\Projects\Magic\Magic\UIMain.cs:line 47
+   at Magic.UIMain.Update() in c:\Users\Lukez_000\Documents\Visual Studio 2013\Projects\Magic\Magic\UIMain.cs:line 41
+   at Magic.CommandProcessor.SetRightColumnSize(String[] args) in c:\Users\Lukez_000\Documents\Visual Studio 2013\Projects\Magic\Magic\ChatCommands.cs:line 105
+   at Magic.CommandProcessor.RunCommand(String command) in c:\Users\Lukez_000\Documents\Visual Studio 2013\Projects\Magic\Magic\CommandProcessor.cs:line 51
+   at Magic.LogBoxManager.OnChatBoxSubmit(Object sender, EventArgs args) in c:\Users\Lukez_000\Documents\Visual Studio 2013\Projects\Magic\Magic\LogBoxManager.cs:line 176
+   at Magic.EventManager.NotifyEvent(Events e, Object sender, EventArgs args) in c:\Users\Lukez_000\Documents\Visual Studio 2013\Projects\Magic\Magic\EventManager.cs:line 34
+   at Magic.MainWindow.CommandBox_PreviewKeyDown(Object sender, KeyEventArgs e) in c:\Users\Lukez_000\Documents\Visual Studio 2013\Projects\Magic\Magic\MainWindow.xaml.cs:line 95[9:11:57 PM] System.NullReferenceException: Object reference not set to an instance of an object.
+   at Magic.UIMain.RegisterCard(Card card) in c:\Users\Lukez_000\Documents\Visual Studio 2013\Projects\Magic\Magic\UIMain.cs:line 84
+   at Magic.Hand.AddCard(Card card) in c:\Users\Lukez_000\Documents\Visual Studio 2013\Projects\Magic\Magic\Hand.cs:line 39
+   at Magic.GameManager.Test() in c:\Users\Lukez_000\Documents\Visual Studio 2013\Projects\Magic\Magic\GameManager.cs:line 44
+   at Magic.MainWindow.Init() in c:\Users\Lukez_000\Documents\Visual Studio 2013\Projects\Magic\Magic\MainWindow.xaml.cs:line 37
+   at Magic.MainWindow.Window_Loaded(Object sender, RoutedEventArgs e) in c:\Users\Lukez_000\Documents\Visual Studio 2013\Projects\Magic\Magic\MainWindow.xaml.cs:line 66

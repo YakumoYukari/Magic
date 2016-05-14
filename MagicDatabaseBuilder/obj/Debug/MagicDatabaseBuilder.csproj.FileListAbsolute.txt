@@ -1,0 +1,10 @@
+c:\Users\lukez_000\documents\visual studio 2013\Projects\Magic\MagicDatabaseBuilder\bin\Debug\MagicDatabaseBuilder.dll.config
+c:\Users\lukez_000\documents\visual studio 2013\Projects\Magic\MagicDatabaseBuilder\bin\Debug\MagicDatabaseBuilder.dll
+c:\Users\lukez_000\documents\visual studio 2013\Projects\Magic\MagicDatabaseBuilder\bin\Debug\MagicDatabaseBuilder.pdb
+c:\Users\lukez_000\documents\visual studio 2013\Projects\Magic\MagicDatabaseBuilder\bin\Debug\Newtonsoft.Json.dll
+c:\Users\lukez_000\documents\visual studio 2013\Projects\Magic\MagicDatabaseBuilder\obj\Debug\MagicDatabaseBuilder.csprojResolveAssemblyReference.cache
+c:\Users\lukez_000\documents\visual studio 2013\Projects\Magic\MagicDatabaseBuilder\obj\Debug\MagicDatabaseBuilder.dll
+c:\Users\lukez_000\documents\visual studio 2013\Projects\Magic\MagicDatabaseBuilder\obj\Debug\MagicDatabaseBuilder.pdb
+C:\Users\Lukez_000\documents\visual studio 2013\Projects\Magic\MagicDatabaseBuilder\bin\Debug\System.Data.SQLite.xml
+C:\Users\Lukez_000\documents\visual studio 2013\Projects\Magic\MagicDatabaseBuilder\bin\Debug\DataStructures.dll
+C:\Users\Lukez_000\documents\visual studio 2013\Projects\Magic\MagicDatabaseBuilder\bin\Debug\DataStructures.pdb
