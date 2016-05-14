@@ -93,6 +93,11 @@ namespace Magic
 		}
 		public UICard CreateUI()
 		{
+			if (String.IsNullOrEmpty(ImagePath))
+			{
+				throw new Exception("The ImagePath for this card is invalid: " + ImagePath);
+			}
+
 			UICard c = new UICard(this);
 			if (!LoadedImages.ContainsKey(ImagePath))
 			{

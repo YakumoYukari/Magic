@@ -12,7 +12,8 @@ namespace DataStructures
 		Mountain,
 		Forest,
 		Swamp,
-		Island
+		Island,
+		Wastes
 	}
 
 	public enum ManaTypes

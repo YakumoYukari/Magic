@@ -1259,7 +1259,7 @@ namespace DataStructures
 				SetBasicLandTypeCounts["Commander 2014"].Add(BasicLandTypes.Mountain,4);
 				SetBasicLandTypeCounts["Commander 2014"].Add(BasicLandTypes.Swamp,4);
 				SetBasicLandTypeCounts["Commander 2014"].Add(BasicLandTypes.Island,4);
-SetBasicLandTypeCounts["Commander 2014"].Add(BasicLandTypes.Plains,4);
+				SetBasicLandTypeCounts["Commander 2014"].Add(BasicLandTypes.Plains,4);
 			#endregion
 
 			Initialized = true;

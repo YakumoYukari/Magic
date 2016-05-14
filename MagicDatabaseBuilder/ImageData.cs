@@ -11,7 +11,7 @@ namespace MagicDatabaseBuilder
 {
 	public static class ImageData
 	{
-		public static string IMAGE_FILEPATH = @"C:\Users\Lukez_000\Desktop\Magic Resources\Images";
+		public static string IMAGE_FILEPATH = @"C:\Users\Lukez_000\Desktop\Folders\Magic Resources\Images";
 
 		public static Bitmap GetCardImage(string name, string setcode)
 		{
